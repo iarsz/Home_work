@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            //Вводится четырехзначное число. Поменять местами 2-ую и 4-ую цифру.
             Console.Write("Введите 4-х значное число: ");
             int x = Convert.ToInt16(Console.ReadLine());
 

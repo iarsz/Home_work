@@ -4,6 +4,9 @@
     {
         static void Main(string[] args)
         {
+            //Длина отрезка задана в дюймах (1 дюйм = 2,54 см). Перевести
+            //значение длины в метрическую систему, то есть выразить ее в метрах,
+            //сантиметрах и миллиметрах. Например, 21 дюйм = 0 м 53 см 3,4 мм
             Console.Write("Введите длину отрезка в дюймах: ");
             double otrDyuym = Convert.ToDouble(Console.ReadLine());
             double dOtrMetr = otrDyuym * 254;

@@ -4,6 +4,9 @@
     {
         static void Main(string[] args)
         {
+            //Вводятся три числа. Обменять их местами циклически.
+            //Например, вводятся a=1, b=2, c=3. После обмена в переменных
+            //должны оказаться значения a=3, b=1, c=2.
             Console.Write("Введите a: ");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.Write("Введите b: ");
